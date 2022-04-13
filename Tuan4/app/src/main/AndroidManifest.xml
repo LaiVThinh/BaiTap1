@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alo">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Nhom_5"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alo">
+        <activity
+            android:name=".ResList"
+            android:exported="false" />
+        <activity
+            android:name=".Res_list"
+            android:exported="false" />
+        <activity
+            android:name=".Res"
+            android:exported="false" />
+        <activity
+            android:name=".List_Res"
+            android:exported="false" />
+        <activity
+            android:name=".Info_Res"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".Display"
+            android:exported="false" />
+        <activity
+            android:name=".Handler"
+            android:exported="false" />
+        <activity
+            android:name=".ViewModel_SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".viewmodel_SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Datastore"
+            android:exported="false" />
+        <activity
+            android:name=".Customer"
+            android:exported="false" />
+        <activity
+            android:name=".customer"
+            android:exported="false" />
+        <activity
+            android:name=".constants"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_ViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".SpashTheme"
+            android:exported="true"
+            android:theme="@style/ThemeSpl">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Oneboarding_one"
+            android:exported="false" />
+        <activity
+            android:name=".Oneboarding_three"
+            android:exported="false" />
+        <activity
+            android:name=".Oneboarding_two"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sign_up"
+            android:exported="false" />
+    </application>
+
+</manifest>
